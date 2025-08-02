@@ -11,4 +11,31 @@ Low-light images, which are taken under inadequate lighting conditions utilizing
 
 ![Block_Final](https://github.com/user-attachments/assets/18c19af7-9336-4dd9-b003-08c82e458c57)
 
+### Main Components:
+- **Decomposition Module**: Splits input into Illumination (L) and Reflectance (R).
+- **Illumination Enhancement**: IGMHA + GAN improves L under poor lighting.
+- **Reflectance Enhancement**: VAE + Spatial Attention refines R for structure and texture.
+- **Reconstruction**: Combines I' = L' × R'
+
+### Total Loss Function:
+DARF-Net optimizes a combined loss function:
+L_total = λ1 * L_VAE + λ2 * L_GAN + λ3 * L_Perc
+
+- λ1 = 10, 
+- λ2 = 1, 
+- λ3 = 0.1
+  
+These weights ensure optimal balance between realism, structure preservation, and low-level detail.
+
+# Results
+
+![SOTA](https://github.com/user-attachments/assets/3ec3dc8b-282a-44d3-99c5-664a3c5857b0)
+
+# Cite as
+
+# Performance
+
+![Table](https://github.com/user-attachments/assets/94474779-8434-4d40-bf21-0fc7449d31be)
+
+
 
