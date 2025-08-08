@@ -31,12 +31,13 @@ These weights ensure optimal balance between realism, structure preservation, an
 
 # Results
 
-![SOTA](https://github.com/user-attachments/assets/3ec3dc8b-282a-44d3-99c5-664a3c5857b0)
+![SOTA](https://github.com/user-attachments/assets/c848029e-5c8c-4aca-9857-91101e904f3f)
 
 
 # Performance
 
-![Table](https://github.com/user-attachments/assets/94474779-8434-4d40-bf21-0fc7449d31be)
+![TABLE 1_page-0001](https://github.com/user-attachments/assets/50bd7f2c-0db4-44d9-bef2-d8b3a2285212)
+
 
 # Cite as
 
